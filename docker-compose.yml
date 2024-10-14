@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  exportation-api:
+    image: exportation-api
+    container_name: exportation-api
+    restart: always
+    environment:
+      - name=value
